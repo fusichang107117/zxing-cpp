@@ -120,7 +120,7 @@ static std::string GetExtension(const std::string& path)
 int main(int argc, char* argv[])
 {
 	int width = 100, height = 100;
-	int margin = 10;
+	int margin = 0;
 	int eccLevel = -1;
 	std::string text, filePath;
 	BarcodeFormat format;
